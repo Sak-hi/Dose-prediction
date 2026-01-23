@@ -19,5 +19,5 @@ while Julia is used for dose prediction and PK–PD modeling.
 - Julia (statistical modeling & PK–PD)
 - MIMIC-IV demo dataset
 
-**Link**
+**Dataset**
 https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
