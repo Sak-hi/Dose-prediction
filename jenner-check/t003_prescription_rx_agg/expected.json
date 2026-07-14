@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T13:51:06Z",
+  "_captured_run_id": "r_7fa531cb47854f948bd17777d3b2d2ac",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Drug1 (4 rows, 8 columns).",
+    "NOTE: Wrote Route_oral (4 rows, 9 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

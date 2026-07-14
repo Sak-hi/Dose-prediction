@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_labevents_range_flag",
+  "source_file": "clinical data/lab events data.sas",
+  "source_blob_sha": "c456c8816c2377f6f212846974a60faa20858e83",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Lab preprocessing: drop rows missing value/valuenum, flag each result -1/0/+1 against its reference range, then PROC SQL AVG/MIN/MAX plus MAX(flag) abnormal flag per subject/hadm/combined_id. External XLSX import replaced with a 5-row inline mock (below-range 2.9, above-range 6.0, in-range values, one missing row dropped); '#' headings as SAS comments; %web_* macros and the absolute-path PROC EXPORT omitted. Missing-value, range-flag, and aggregation steps verbatim."
+}

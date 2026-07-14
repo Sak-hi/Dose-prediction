@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_admission_los",
+  "source_file": "clinical data/admission patient data.sas",
+  "source_blob_sha": "28cdc7fefbcf05a8d2ca64306a25ea9af6dd33ee",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Admission preprocessing: dose duration and length-of-stay (days/hours) from admit/discharge datetime differences. External XLSX import replaced with a 4-row inline mock; '#' headings as SAS comments; %web_* macros and PROC EXPORT omitted. Interval-math DATA steps verbatim."
+}

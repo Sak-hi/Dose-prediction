@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T13:51:06Z",
+  "_captured_run_id": "r_20e700d869be455db8bc4533f30b99ca",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Lab_missingval (4 rows, 9 columns).",
+    "NOTE: Wrote lab_range (4 rows, 10 columns).",
+    "NOTE: PROC PRINT completed: 4 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
