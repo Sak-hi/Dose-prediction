@@ -1,0 +1,39 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T061458Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.import
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote WORK.import (4 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ADMISSION_DOSEDURATION
+
+
+NOTE: Read 4 rows from WORK.import.
+NOTE: Wrote ADMISSION_DOSEDURATION (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Length_of_stay
+
+
+NOTE: Read 4 rows from ADMISSION_DOSEDURATION.
+NOTE: Wrote Length_of_stay (4 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA los_HR
+
+
+NOTE: Read 4 rows from Length_of_stay.
+NOTE: Wrote los_HR (4 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=los_HR
+
+NOTE: PROC PRINT completed: 4 observations printed, 4 variables

@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_inputevents_impute_freq",
+  "source_file": "clinical data/inputevents data.sas",
+  "source_blob_sha": "65d00ae27730be442938215113086919b5ef1be8",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Inputevents preprocessing: median rate imputation, PROC FREQ on rateuom, blank-unit imputation, +7-day endtime, and dose-duration hours. External XLSX import replaced with a 4-row inline mock (a missing rate and a blank unit exercise both imputations); '#' headings as SAS comments; %web_* macros and the follow-on aggregation/PROC EXPORT (which reference an unset WORK.IMPORT upstream) omitted. Imputation and datetime DATA steps verbatim."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_patient_flags",
+  "source_file": "clinical data/patient data.sas",
+  "source_blob_sha": "9e0155b05b31cd0ab60e65287df4d6449724e0f6",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Patient preprocessing: gender->gender_num and dod->death_flag binary recodes plus PROC MEANS. External XLSX import replaced with an 8-row inline mock of the patients table; author's markdown '#' headings rendered as SAS comments; SAS Studio %web_* task macros and the absolute-path PROC EXPORT omitted. DATA-step logic verbatim."
+}

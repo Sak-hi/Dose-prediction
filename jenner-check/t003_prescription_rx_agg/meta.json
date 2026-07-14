@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_prescription_rx_agg",
+  "source_file": "clinical data/prescription data.sas",
+  "source_blob_sha": "8f8aace0f66126290d9d29125e2dc09a7cba5e06",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Prescription preprocessing: Aspirin subset, +7-day stop-time, PO/NG/PO-NG -> ORAL route recode, and PROC SQL AVG/MAX/SUM daily-dose aggregation by subject/hadm/drug. External XLSX import replaced with a 5-row inline mock (incl. a Warfarin row the subset filters out); '#' headings as SAS comments; %web_* macros, the follow-on LEFT JOIN + KEEP restage, and PROC EXPORT omitted. Kept steps verbatim."
+}

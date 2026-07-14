@@ -1,0 +1,14 @@
+                                                   The FREQ Procedure
+
+                                     Cumulative    Cumulative
+rateuom    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+mL/hour            3    100.00            3       100.00
+
+  Obs  subject_id   rate  rateuom  DOSE_DURATION_HR
+-----  ----------  -----  -------  ----------------
+    1       10001  4.915  mL/hour               168
+    2       10002  4.915  mL/hour               168
+    3       10003    6.2  mL/hour               168
+    4       10004  4.915  mL/hour               168
+

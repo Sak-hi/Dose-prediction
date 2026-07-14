@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_diagnosis_count_distinct",
+  "source_file": "clinical data/diagnosis data.sas",
+  "source_blob_sha": "f49a35a95147dee3718712cbf5bf942fbe43e147",
+  "source_commit": "9a8512249aa505bdd4969098f11891cbc58507ef",
+  "notes": "Diagnosis preprocessing: COUNT(DISTINCT icd_code) per subject/hadm, then LEFT JOIN back to attach the count to each ICD row. External XLSX import replaced with a 6-row inline mock (a repeated I10 code demonstrates DISTINCT counting once); '#' headings as SAS comments; %web_* macros, the duplicated count block, and PROC EXPORT omitted. PROC SQL verbatim."
+}
